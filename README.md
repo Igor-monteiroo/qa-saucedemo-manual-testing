@@ -1,63 +1,49 @@
-QA SauceDemo Manual Testing Project
+# QA SauceDemo Manual Testing Project
 
-About
+## About
 
 This project focuses on practicing manual software testing on a demo e-commerce application.
 
-Application Under Test
+## Application Under Test
 
-Name: SauceDemo
+- **Name:** SauceDemo
+- **URL:** [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
-URL: https://www.saucedemo.com/
+## Test Scope
 
-Test Scope
+- Verify that products are displayed correctly
+- Verify that products can be sorted by price (low to high)
+- Verify that a product can be added to the cart
+- Verify that the cart displays the correct product
+- Verify that a product can be removed from the cart
 
-Verify that products are displayed correctly
+## Tools
 
-Verify that products can be sorted by price (low to high)
+- Web browser
+- Microsoft Excel
+- GitHub
 
-Verify that a product can be added to the cart
+## Test Results
 
-Verify that the cart displays the correct product
+- Planned test cases: 5
+- Executed: 5
+- Passed: 5
+- Failed: 0
 
-Verify that a product can be removed from the cart
+## Test Evidence
 
-Tools
+Screenshots documenting test execution are available in the `evidence/` folder.
 
-Web browser
+Test cases and observations are documented in `test-cases.xlsx`, which contains two worksheets: `Test Cases` and `Observations`.
 
-Microsoft Excel
+## Learning Goals
 
-GitHub
+- Practice manual testing on an e-commerce application
+- Write and execute test cases
+- Verify product sorting and shopping cart functionality
+- Compare expected and actual results
+- Document observations and potential issues
 
-Test Results
-
-Planned test cases: 5
-
-Executed: 5
-
-Passed: 5
-
-Failed: 0
-
-Test Evidence
-
-Screenshots documenting test execution are available in the evidence/ folder.
-
-Test cases and observations are documented in test-cases.xlsx, which contains two worksheets: Test Cases and Observations.
-
-Learning Goals
-
-Practice manual testing on an e-commerce application
-
-Write and execute test cases
-
-Verify product sorting and shopping cart functionality
-
-Compare expected and actual results
-
-Document observations and potential issues
-
-Project Status
+## Project Status
 
 Completed initial manual testing scenarios. Further testing and improvements are planned.
